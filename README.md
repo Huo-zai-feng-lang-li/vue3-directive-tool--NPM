@@ -1,12 +1,12 @@
 # 你的 工具箱
 
-> 开箱即可用的 指令\utils，
-> 说明：vue3-directive-tool 是一个方便在 Vue 3 + Ts 项目中快速使用的 directive、tool 的 npm 插件。它允许您轻松地在项目中添加多种功能，它采用 Ts 方式开发，与 Vue3 更加搭配
+> 开箱即可用的 directive\utils，
+> 说明：vue3-directive-tools 是一个方便在 Vue 3 + Ts 项目中快速使用的 directive、tool 的 npm 插件。它允许您轻松地在项目中添加多种功能，它采用 Ts 方式开发，与 Vue3 更加搭配
 
 # 🌍 1、安装
 
 ```javascript
-npm install vue3-directive-plug
+npm install vue3-directive-tools
 ```
 
 **说明：**
@@ -18,7 +18,7 @@ npm install vue3-directive-plug
 在你的主应用程序入口文件（例如 main.js）中，导入并使用 directive ：
 
 ```javascript
-import { directive } from "vue3-directive-plug";
+import { directive } from "vue3-directive-tools";
 app.use(directive).mount("#app");
 ```
 
@@ -143,12 +143,10 @@ const throttleClick = () => {
 
 ## debounceRest
 
-> import { debounceRest } from "vue3-directive-plug";
-
 ```javascript
 <el-button @click="handClick('我是参数')">首页</el-button>
 
-import { debounceRest } from "vue3-directive-plug";
+import { debounceRest } from "vue3-directive-tools";
 
 const handClick = debounceRest((varStr: string) => {
 	console.log("！这里输出防抖 🚀 ==>：", varStr);
@@ -157,21 +155,15 @@ const handClick = debounceRest((varStr: string) => {
 
 ## isEvenOrOdd
 
-> import { isEvenOrOdd } from "vue3-directive-plug";
-
 ```javascript
 <el-button @click="handClick">判断奇数偶数</el-button>
-import { isEvenOrOdd } from "vue3-directive-plug";
+import { isEvenOrOdd } from "vue3-directive-tools";
 
 function handClick() {
 	const isEvenOrOdd = isEvenOrOdd(123);
 	console.log("！这里输出奇偶判断 🚀 ==>：", isEvenOrOdd);
 }
 ```
-
-## throttleClick
-
-> import { throttleClick } from "vue3-directive-plug";
 
 # 1、npm 命令大全
 
