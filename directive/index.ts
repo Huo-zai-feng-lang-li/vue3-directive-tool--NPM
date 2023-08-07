@@ -6,7 +6,7 @@ import debounce from "./debounce";
 import throttle from "./throttle";
 import longpress from "./longpress";
 // 引入utils下的index.js文件
-import { debounceRest } from "../utils";
+import { debounceRest, isEvenOrOdd } from "../utils";
 const directivesList: any = {
 	copy,
 	waterMarker,
@@ -15,11 +15,11 @@ const directivesList: any = {
 	throttle,
 	longpress,
 };
-const directives = {
+export const directives = {
 	install: function (app: App<Element>) {
 		Object.keys(directivesList).forEach((key) => {
 			app.directive(key, directivesList[key]);
 		});
 	},
 };
-export { directives, debounceRest };
+export { debounceRest, isEvenOrOdd };

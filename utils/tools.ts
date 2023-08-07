@@ -1,30 +1,22 @@
 export function isEvenOrOdd(num: number): string {
-	// 判断输入是否为数值类型
+	// 检查输入是否为数字
 	if (typeof num !== "number") {
-		return "输入不是一个有效的数值";
+		return "not a number";
 	}
-	// 判断负数
-	if (num < 0) {
-		if (Math.abs(num) % 2 === 0) {
-			return "负偶数";
+
+	// 判断数字类型
+	const judgeNumberType = (num: number, isInteger: boolean): string => {
+		if (num < 0) {
+			return isInteger ? "负整数" : "负小数";
 		} else {
-			return "负奇数";
+			return isInteger ? "正整数" : "正小数";
 		}
-	}
-	// 判断输入是否为整数
+	};
+
+	// 检查输入是否为整数
 	if (Number.isInteger(num)) {
-		if (num % 2 === 0) {
-			return "偶数";
-		} else {
-			return "奇数";
-		}
+		return judgeNumberType(num, true);
+	} else if (num % 1 !== 0) {
+		return judgeNumberType(num, false);
 	}
-
-	// 判断小数
-	if (num % 1 !== 0) {
-		return "小数";
-	}
-
-	// 其他情况
-	return "无法判断";
 }
