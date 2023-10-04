@@ -15,5 +15,5 @@ npm install vue3-directive-tools
 
 ## 🛹 2、使用方法
 
-简介苍白，请您移步-》👇
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[查看文档](https://huozaifenlangli.github.io/vue3-tools-docs/vue3-directive-tools.html)
+简介苍白，请您移步-》👉
+[查看文档](https://huozaifenlangli.github.io/vue3-tools-docs/vue3-directive-tools.html)
