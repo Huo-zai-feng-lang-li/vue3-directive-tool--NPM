@@ -1,3 +1,4 @@
 import { debounceRest } from "./debounce";
 import { isEvenOrOdd } from "./tools";
-export { debounceRest, isEvenOrOdd };
+import { isType } from "./isType";
+export { debounceRest, isEvenOrOdd, isType };

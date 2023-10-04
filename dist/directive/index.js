@@ -4,7 +4,7 @@ import draggable from "./draggable";
 import debounce from "./debounce";
 import throttle from "./throttle";
 import longpress from "./longpress";
-import { debounceRest, isEvenOrOdd } from "../utils";
+import { debounceRest, isEvenOrOdd, isType } from "../utils";
 const directivesList = {
     copy,
     waterMarker,
@@ -20,4 +20,4 @@ export const directives = {
         });
     },
 };
-export { debounceRest, isEvenOrOdd };
+export { debounceRest, isEvenOrOdd, isType };
