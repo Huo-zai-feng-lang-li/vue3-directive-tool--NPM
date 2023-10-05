@@ -5,8 +5,7 @@ import draggable from "./draggable";
 import debounce from "./debounce";
 import throttle from "./throttle";
 import longpress from "./longpress";
-// 引入utils下的index.js文件
-import { debounceRest, isEvenOrOdd, isType } from "../utils";
+
 const directivesList: any = {
 	copy,
 	waterMarker,
@@ -22,4 +21,5 @@ export const directives = {
 		});
 	},
 };
-export { debounceRest, isEvenOrOdd, isType };
+
+export { debounceRest, isEvenOrOdd, isType } from "../utils";

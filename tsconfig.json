@@ -4,7 +4,7 @@
 		"useDefineForClassFields": true, // 是否校验TypeScript数据类型
 		"module": "ES6", // 生成代码的模板标准
 		"removeComments": true, // 是否删除注释
-		"outDir": "./dist", // 指定输出目录
+		"outDir": "./lib", // 指定输出目录
 		"strict": true, // 启用所有严格类型检查选项
 		"moduleResolution": "node", // 指定模块解析策略
 		"esModuleInterop": true, // 允许从CommonJS模块导入默认导出
@@ -26,5 +26,5 @@
 		"src/**/*.json"
 	],
 	// exclude: 指定要从编译中排除的文件
-	"exclude": ["node_modules", "dist"]
+	"exclude": ["node_modules"]
 }

@@ -1,10 +1,10 @@
 {
   "name": "vue3-directive-tools",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "🎉🎉🔥 基于 Vue3 + Ts 的 directive 及 Hooks 的 npm 插件。它允许您轻松地在项目中添加多种功能，它采用 Ts 方式开发，与 Vue3 更加搭配, 帮您快速完成开发功能、您只需要使用功能 v-xx:''; 即可 ",
   "author": "zk <1334132303@qq.com>",
   "license": "MIT",
-  "main": "dist/directive/index.js",
+  "main": "lib/directive/index.js",
   "scripts": {
     "tsc": "tsc"
   },

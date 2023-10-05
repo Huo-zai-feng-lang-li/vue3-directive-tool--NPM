@@ -1,4 +1,4 @@
-export function isEvenOrOdd(num: number): string {
+export function isEvenOrOdd(num: number) {
 	// 检查输入是否为数字
 	if (typeof num !== "number") {
 		return "not a number";
