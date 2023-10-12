@@ -6,7 +6,14 @@
   "license": "MIT",
   "main": "lib/directive/index.js",
   "scripts": {
-    "tsc": "tsc"
+    "commit": "git pull && git add -A && git-cz && git push",
+    "tsc": "tsc -W -p tsconfig.json",
+    "tsc:default": "tsc -w --outDir lib src/directive/index.ts"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "keywords": [
     "vue3",
@@ -25,5 +32,11 @@
   "engines": {
     "node": ">=16.0.0",
     "npm": ">= 7.0.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
+  "dependencies": {
+    "cz-conventional-changelog": "^3.3.0"
   }
 }
