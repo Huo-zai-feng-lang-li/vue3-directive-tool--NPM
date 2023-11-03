@@ -22,4 +22,11 @@ export const directives = {
 	},
 };
 
-export { debounceRest, isEvenOrOdd, isType } from "../utils";
+// 引入utils下的所有文件并同时导出所需内容
+export {
+	debounceRest,
+	isEvenOrOdd,
+	isType,
+	customScroll,
+	handleDiagramInteraction,
+} from "../utils";
