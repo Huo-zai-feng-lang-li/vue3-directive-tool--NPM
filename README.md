@@ -16,9 +16,10 @@ npm install vue3-directive-tools
 ## 🛹 2、使用方法
 
 简介苍白，请您移步-》👉
-[查看文档](https://huozaifenlangli.github.io/vue3-tools-docs/vue3-directive-tools.html)
+[查看使用文档](https://huo-zai-feng-lang-li.github.io/vue3-tools-docs/vue3-directive-tools.html)
+[查看更新文档](https://huo-zai-feng-lang-li.github.io/vue3-tools-docs/UpdateLog/vue3-directive-tools.html)
 
-## 📝 package.json
+## 📝 package.json 描述
 
 ```javascript
   "scripts": {
